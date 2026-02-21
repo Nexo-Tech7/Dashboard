@@ -26,47 +26,47 @@ const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    path: "/TailAdmin/",
+    path: "/",
   },
   {
     icon: <GroupIcon />,
     name: "Students",
-    path: "/TailAdmin/students",
+    path: "/students",
   },
   {
     icon: <UserCircleIcon />,
     name: "Teachers",
-    path: "/TailAdmin/teachers",
+    path: "/teachers",
   },
   {
     name: "Tables",
     icon: <TableIcon />,
     subItems: [
-      { name: "Students", path: "/TailAdmin/students", pro: false },
-      { name: "Teachers", path: "/TailAdmin/teachers", pro: false },
+      { name: "Students", path: "/students", pro: false },
+      { name: "Teachers", path: "/teachers", pro: false },
     ],
   },
   {
     icon: <PieChartIcon />,
     name: "Charts",
-    path: "/TailAdmin/",
+    path: "/",
   },
   {
     icon: <CalenderIcon />,
     name: "Calendar",
-    path: "/TailAdmin/calendar",
+    path: "/calendar",
   },
   {
     icon: <UserCircleIcon />,
     name: "User Profile",
-    path: "/TailAdmin/profile",
+    path: "/profile",
   },
   {
     name: "Pages",
     icon: <PageIcon />,
     subItems: [
-      { name: "Blank Page", path: "blank", pro: false },
-      { name: "404 Error", path: "error-404", pro: false },
+      { name: "Blank Page", path: "/blank", pro: false },
+      { name: "404 Error", path: "/error-404", pro: false },
     ],
   },
 ];
@@ -284,7 +284,7 @@ const AppSidebar: React.FC = () => {
           !isExpanded && !isHovered ? "lg:justify-center" : "justify-start"
         }`}
       >
-        <Link to="/TailAdmin/" className="font-semibold text-gray-800 dark:text-white/90 text-xl">
+        <Link to="/" className="font-semibold text-gray-800 dark:text-white/90 text-xl">
           {isExpanded || isHovered || isMobileOpen ? "STEMify" : "ST"}
         </Link>
       </div>

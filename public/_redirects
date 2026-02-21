@@ -1,0 +1,2 @@
+# Netlify: serve index.html for all routes (SPA)
+/TailAdmin/*  /TailAdmin/index.html  200

@@ -132,7 +132,7 @@ export default function StudentsPage() {
                           <TableCell className="px-5 py-4 text-start text-theme-sm dark:text-gray-400">
                             {sid ? (
                               <Link
-                                to={`/TailAdmin/students/${encodeURIComponent(sid)}`}
+                                to={`/students/${encodeURIComponent(sid)}`}
                                 className="text-brand-500 hover:underline text-theme-sm"
                               >
                                 View subscriptions

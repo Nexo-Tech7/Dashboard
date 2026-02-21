@@ -164,7 +164,7 @@ export default function TeachersPage() {
                           <TableCell className="px-5 py-4 text-start text-theme-sm dark:text-gray-400">{formatDate(r.created_at)}</TableCell>
                           <TableCell className="px-5 py-4 text-start text-theme-sm dark:text-gray-400">
                             <Link
-                              to={`/TailAdmin/teachers/${encodeURIComponent(tid)}`}
+                              to={`/teachers/${encodeURIComponent(tid)}`}
                               className="text-brand-500 hover:underline text-theme-sm"
                             >
                               View months

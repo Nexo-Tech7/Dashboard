@@ -130,7 +130,7 @@ export default function StudentDetailPage() {
         </ComponentCard>
 
         <p>
-          <Link to="/TailAdmin/students" className="text-brand-500 hover:underline text-sm">
+          <Link to="/students" className="text-brand-500 hover:underline text-sm">
             ← Back to students
           </Link>
         </p>

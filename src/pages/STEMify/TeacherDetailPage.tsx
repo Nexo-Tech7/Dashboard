@@ -125,7 +125,7 @@ export default function TeacherDetailPage() {
                         <TableCell className="px-5 py-4 text-start text-theme-sm dark:text-gray-400">{m.count}</TableCell>
                         <TableCell className="px-5 py-4 text-start text-theme-sm dark:text-gray-400">
                           <Link
-                            to={`/TailAdmin/teachers/${encodeURIComponent(teacherId ?? "")}/month/${m.month_number}`}
+                            to={`/teachers/${encodeURIComponent(teacherId ?? "")}/month/${m.month_number}`}
                             className="text-brand-500 hover:underline text-theme-sm"
                           >
                             View details

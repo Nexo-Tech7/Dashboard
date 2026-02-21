@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/TailAdmin/:path*", "destination": "/index.html" }
+  ]
+}

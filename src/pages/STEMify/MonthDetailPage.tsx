@@ -143,7 +143,7 @@ export default function MonthDetailPage() {
         </ComponentCard>
 
         <p>
-          <Link to={`/TailAdmin/teachers/${encodeURIComponent(teacherId ?? "")}`} className="text-brand-500 hover:underline text-sm">
+          <Link to={`/teachers/${encodeURIComponent(teacherId ?? "")}`} className="text-brand-500 hover:underline text-sm">
             ← Back to teacher months
           </Link>
         </p>
